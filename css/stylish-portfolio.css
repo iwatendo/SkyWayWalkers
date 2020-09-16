@@ -372,3 +372,13 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
+.img-fluid {
+  height: 432px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.caption-content {
+  text-shadow: 1px 2px 3px #000000;
+}
