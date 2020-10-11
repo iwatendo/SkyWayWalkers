@@ -163,17 +163,30 @@
       <div class="row no-gutters">
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/talktocsv/chatowner/">
+          <a class="portfolio-item" id="talktocsv" href="https://skybeje.net/talktocsv/chatowner/">
+            <script>
+              function versionChange(ver){
+                var element = document.getElementById("talktocsv");
+                var url = `https://skybeje.net/talktocsv/ver${ver}/chatowner/`;
+                element.href = url;
+                location.href = url;
+              }
+
+            </script>
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Talk To CSV (Ver2.2)</div>
+                <div class="h2">Talk To CSV (Ver2.3)</div>
                 <p class="mb-0">
                   音声認識で会話の記録を残すためのサービス<br>
                   音声通話やビデオ通話と併用利用が可能<br>
                 </p>
-                <span class="version-link" onclick="window.open('https://skybeje.net/talktocsv/ver2.0/chatowner/');" class="mb-0">Ver 2.0</span>
+                <span class="version-link" onclick="versionChange('2.0')" class="mb-0">Ver 2.0</span>
                 /
-                <span class="version-link" onclick="window.open('https://skybeje.net/talktocsv/ver2.1.1/chatowner/');" class="mb-0">Ver 2.1</span>
+                <span class="version-link" onclick="versionChange('2.1.1');" class="mb-0">Ver 2.1</span>
+                /
+                <span class="version-link" onclick="versionChange('2.2');" class="mb-0">Ver 2.2</span>
+                /
+                <span class="version-link" onclick="versionChange('2.3');" class="mb-0">Ver 2.3</span>
               </div>
             </div>
             <img class="img-fluid" src="img/typewriter-801921_640.jpg" alt="">
@@ -182,7 +195,7 @@
 
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/speechrtm/">
+          <a class="portfolio-item" href="https://skybeje.net/speechrtm/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Talk To CSV の変換補助</div>
@@ -198,7 +211,7 @@
 
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/cboard/">
+          <a class="portfolio-item" href="https://skybeje.net/cboard/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Communication Board</div>
@@ -214,7 +227,7 @@
 
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/webcameraviewer/">
+          <a class="portfolio-item" href="https://skybeje.net/webcameraviewer/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Web Camera Viewer</div>
@@ -230,7 +243,7 @@
 
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/castinstance/">
+          <a class="portfolio-item" href="https://skybeje.net/castinstance/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">プライベート配信</div>
@@ -246,7 +259,7 @@
 
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/castinstancemobileqr/">
+          <a class="portfolio-item" href="https://skybeje.net/castinstancemobileqr/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">モバイル配信</div>
@@ -261,7 +274,7 @@
 
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/castinstancescreenshare/">
+          <a class="portfolio-item" href="https://skybeje.net/castinstancescreenshare/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">スクリーンシェア</div>
@@ -277,7 +290,7 @@
 
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/gadgetinstance/">
+          <a class="portfolio-item" href="https://skybeje.net/gadgetinstance/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">YouTube同期再生</div>
@@ -292,7 +305,7 @@
         </div>
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/livehtmlinstance/">
+          <a class="portfolio-item" href="https://skybeje.net/livehtmlinstance/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">LiveHTML</div>
@@ -307,7 +320,7 @@
         </div>
         <!-- Portfolio Item -->
         <div class="col-lg-6">
-          <a class="portfolio-item" target="_blank" href="https://skybeje.net/homeinstance/">
+          <a class="portfolio-item" href="https://skybeje.net/homeinstance/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Skybeje</div>
